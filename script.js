@@ -35,18 +35,7 @@ const getPokemon = async (id) => {
 };
 
 
-/* /* const renderPokemons = (name = '') => {
-	name = name.toLowerCase();
-	pokeContainer.innerHTML = null;
-	pokemons
-	  .filter(pokemon => pokemon.name.includes(name))
-	  .forEach(pokemon => createPokemonCard(pokemon));
-  }; */
 
-pokeFinder.addEventListener('keyup', event =>{
-	const searchTerm = event.target.value;
-	renderPokemons(searchTerm);
-}) 
 
 function createPokemonCard(pokemon) {
   const { name, types, sprites, id } = pokemon;
