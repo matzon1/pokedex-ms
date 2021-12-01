@@ -1,79 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 .nav {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: linear-gradient(to bottom, #7e97d3, #c9d6ff);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #7e97d3, #c9d6ff);
 }
 
 body {
-    background: linear-gradient(to bottom, #c9d6ff, #e2e2e2); 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family:Arial, Helvetica, sans-serif;
-    margin: 0;
+  background: linear-gradient(to bottom, #c9d6ff, #e2e2e2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 .poke-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: space-between;
-    margin: 0 auto;
-    max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
-.pokemon{
-    background-color: #eee;
-    border-radius: 20px;
-    box-shadow: 0 3px 15px rgba(100,100,100,0.5);
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
+.pokemon {
+  background-color: #eee;
+  border-radius: 20px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
 }
 
-.pokemon .img-container{
-    background-color: rgba(255,255,255,0.6);
-    border-radius: 50%;
-    width: 170px;
-    height: 150px;
-    text-align: center;
+.pokemon .img-container {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  width: 170px;
+  height: 150px;
+  text-align: center;
 }
 
-.pokemon .img-container img{
-    margin-top: 20px;
-    max-width: 200%;
+.pokemon .img-container img {
+  margin-top: 20px;
+  max-width: 200%;
 }
 
-.pokemon .info{
-    margin-top: 33px;
+.pokemon .info {
+  margin-top: 33px;
 }
 
-.pokemon .number{
-    background-color: rgba(0,0,0,0.1);
-    border-radius: 10px;
-    font-size: 18px;
-    padding: 5px 10px;
-    font-weight: bold;
+.pokemon .number {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 5px 10px;
+  font-weight: bold;
 }
 
 .pokemon .name {
-    margin: 15px 0 7px;
-    letter-spacing: 0.5px;
-    text-transform: capitalize;
+  margin: 15px 0 7px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
 }
 
-.pokemon .type{
-    text-transform: capitalize;
-    font-weight: bold;
+.pokemon .type {
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
-.grow { transition: all .2s ease-in-out;}
-.grow:hover {transform: scale(1.1);}
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}

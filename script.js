@@ -34,9 +34,6 @@ const getPokemon = async (id) => {
   createPokemonCard(pokemon);
 };
 
-
-
-
 function createPokemonCard(pokemon) {
   const { name, types, sprites, id } = pokemon;
   const type = types[0].type.name;
