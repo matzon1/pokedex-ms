@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(to bottom, #7e97d3, #c9d6ff);
+  background: linear-gradient(to bottom, #c9d6ff, #e2e2e2);
 }
 
 body {

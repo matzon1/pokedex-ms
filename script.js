@@ -1,7 +1,6 @@
 const pokeContainer = document.getElementById("poke_container");
 const pokeFinder = document.getElementById("input-pokemon");
 const pokemonsNumber = 150;
-let pokemons = [];
 
 const colors = {
   fire: "#FDDFDF",
